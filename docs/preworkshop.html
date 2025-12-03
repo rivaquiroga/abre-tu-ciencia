@@ -693,31 +693,46 @@ html body:not(.index-page-body).page-exit .hero-section{
 </script>
 <script src="force-grid.js"></script>
 <script>
-// Asegurar que los tabsets funcionen correctamente en deploy
-// Script mejorado que funciona tanto con Bootstrap como sin él
+// Script robusto para tabsets que funciona en preview y deploy
 (function() {
+  var tabsetsInitialized = false;
+  
   function initTabsets() {
-    const tabElements = document.querySelectorAll('a[data-bs-toggle="tab"]');
+    if (tabsetsInitialized) return;
+    
+    const tabElements = document.querySelectorAll('a[data-bs-toggle="tab"], a[role="tab"][data-bs-target]');
+    
+    if (tabElements.length === 0) {
+      // Si no hay tabs aún, intentar de nuevo más tarde
+      setTimeout(initTabsets, 200);
+      return;
+    }
+    
+    tabsetsInitialized = true;
     
     tabElements.forEach(function(tab) {
-      // Evitar múltiples inicializaciones
-      if (tab.hasAttribute('data-tab-initialized')) return;
-      tab.setAttribute('data-tab-initialized', 'true');
+      // Remover listeners anteriores si existen
+      const newTab = tab.cloneNode(true);
+      tab.parentNode.replaceChild(newTab, tab);
       
-      tab.addEventListener('click', function(e) {
+      newTab.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         
-        const targetId = tab.getAttribute('data-bs-target') || tab.getAttribute('href');
+        const targetId = newTab.getAttribute('data-bs-target') || newTab.getAttribute('href');
         if (!targetId) return;
         
         const targetPane = document.querySelector(targetId);
-        const tabset = tab.closest('.panel-tabset');
+        const tabset = newTab.closest('.panel-tabset');
         
-        if (!tabset || !targetPane) return;
+        if (!tabset || !targetPane) {
+          console.warn('Tabset not found:', { targetId, tabset, targetPane });
+          return;
+        }
         
         // Remover active de todos los tabs en el mismo tabset
-        const allTabs = tabset.querySelectorAll('.nav-link');
-        const allPanes = tabset.querySelectorAll('.tab-pane');
+        const allTabs = tabset.querySelectorAll('.nav-link[role="tab"]');
+        const allPanes = tabset.querySelectorAll('.tab-pane[role="tabpanel"]');
         
         allTabs.forEach(function(t) {
           t.classList.remove('active');
@@ -731,32 +746,55 @@ html body:not(.index-page-body).page-exit .hero-section{
         });
         
         // Activar el tab y pane seleccionados
-        tab.classList.add('active');
-        tab.setAttribute('aria-selected', 'true');
+        newTab.classList.add('active');
+        newTab.setAttribute('aria-selected', 'true');
         targetPane.classList.add('active', 'show');
         targetPane.style.display = 'block';
         targetPane.setAttribute('aria-hidden', 'false');
         
-        // Disparar evento para compatibilidad con otros scripts
-        const event = new Event('shown.bs.tab', { bubbles: true });
-        tab.dispatchEvent(event);
+        // Disparar evento para compatibilidad
+        try {
+          const event = new Event('shown.bs.tab', { bubbles: true });
+          newTab.dispatchEvent(event);
+        } catch(e) {}
       });
     });
   }
   
-  // Inicializar cuando el DOM esté listo
+  // Múltiples puntos de inicialización
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initTabsets);
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(initTabsets, 100);
+    });
   } else {
-    initTabsets();
+    setTimeout(initTabsets, 100);
   }
   
-  // También intentar después de que la página esté completamente cargada
-  window.addEventListener('load', initTabsets);
+  window.addEventListener('load', function() {
+    setTimeout(initTabsets, 200);
+  });
   
-  // Inicializar también cuando Quarto termine de procesar
-  if (window.quarto) {
-    window.addEventListener('quarto-loaded', initTabsets);
+  // También usar MutationObserver para detectar cuando se agregan tabsets dinámicamente
+  if (window.MutationObserver) {
+    const observer = new MutationObserver(function(mutations) {
+      const hasNewTabs = Array.from(mutations).some(function(mutation) {
+        return Array.from(mutation.addedNodes).some(function(node) {
+          return node.nodeType === 1 && (
+            node.classList.contains('panel-tabset') ||
+            node.querySelector && node.querySelector('.panel-tabset')
+          );
+        });
+      });
+      if (hasNewTabs) {
+        tabsetsInitialized = false;
+        setTimeout(initTabsets, 100);
+      }
+    });
+    
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
   }
 })();
 </script>
