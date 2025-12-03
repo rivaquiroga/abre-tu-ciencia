@@ -1,9 +1,11 @@
 [build]
-  publish = "_site"
   command = "quarto render"
+  publish = "_site"
+
+[[plugins]]
+package = "netlify-plugin-quarto"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
