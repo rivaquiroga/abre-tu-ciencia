@@ -24,7 +24,7 @@ website:
         text: Lugar
     right:
       - icon: github
-        href: https://github.com/tu-usuario/abre-tu-ciencia
+        href: https://github.com/JDConejeros/abre-tu-ciencia
       - icon: box
         href: https://osf.io/
   page-footer:
