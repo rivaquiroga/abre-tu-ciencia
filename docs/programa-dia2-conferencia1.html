@@ -688,6 +688,74 @@ html body:not(.index-page-body).page-exit .hero-section{
 })();
 </script>
 <script src="force-grid.js"></script>
+<script>
+// Asegurar que los tabsets funcionen correctamente en deploy
+// Script mejorado que funciona tanto con Bootstrap como sin él
+(function() {
+  function initTabsets() {
+    const tabElements = document.querySelectorAll('a[data-bs-toggle="tab"]');
+    
+    tabElements.forEach(function(tab) {
+      // Evitar múltiples inicializaciones
+      if (tab.hasAttribute('data-tab-initialized')) return;
+      tab.setAttribute('data-tab-initialized', 'true');
+      
+      tab.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = tab.getAttribute('data-bs-target') || tab.getAttribute('href');
+        if (!targetId) return;
+        
+        const targetPane = document.querySelector(targetId);
+        const tabset = tab.closest('.panel-tabset');
+        
+        if (!tabset || !targetPane) return;
+        
+        // Remover active de todos los tabs en el mismo tabset
+        const allTabs = tabset.querySelectorAll('.nav-link');
+        const allPanes = tabset.querySelectorAll('.tab-pane');
+        
+        allTabs.forEach(function(t) {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        
+        allPanes.forEach(function(p) {
+          p.classList.remove('active', 'show');
+          p.style.display = 'none';
+          p.setAttribute('aria-hidden', 'true');
+        });
+        
+        // Activar el tab y pane seleccionados
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        targetPane.classList.add('active', 'show');
+        targetPane.style.display = 'block';
+        targetPane.setAttribute('aria-hidden', 'false');
+        
+        // Disparar evento para compatibilidad con otros scripts
+        const event = new Event('shown.bs.tab', { bubbles: true });
+        tab.dispatchEvent(event);
+      });
+    });
+  }
+  
+  // Inicializar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTabsets);
+  } else {
+    initTabsets();
+  }
+  
+  // También intentar después de que la página esté completamente cargada
+  window.addEventListener('load', initTabsets);
+  
+  // Inicializar también cuando Quarto termine de procesar
+  if (window.quarto) {
+    window.addEventListener('quarto-loaded', initTabsets);
+  }
+})();
+</script>
 
 
 

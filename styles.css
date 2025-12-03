@@ -22,14 +22,14 @@
 
 html, body { width: 100%; height: 100%; overflow-x: hidden; }
 html{
-  font-size: 16px; /* Base font size para consistencia entre preview y deploy */
+  font-size: 14px; /* Base font size reducido para mejor legibilidad */
 }
 body{
   min-height: 100vh;
   display: flex; flex-direction: column;
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  font-size: 1rem; /* 16px base - responsivo y consistente */
-  color: var(--text-color); line-height: 1.5; background: var(--white);
+  font-size: 0.875rem; /* 14px base - más pequeño y responsivo */
+  color: var(--text-color); line-height: 1.6; background: var(--white);
 }
 
 /* ───────────────────────────────
