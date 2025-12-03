@@ -21,8 +21,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto CLI
-        uses: quarto-dev/quarto-actions/setup-quarto@v2
+      - name: Install Quarto CLI (via npm)
+        run: |
+          npm install -g @quarto-dev/quarto-cli
+          quarto --version
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
