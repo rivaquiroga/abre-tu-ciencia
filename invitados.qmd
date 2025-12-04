@@ -42,7 +42,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![](images/invitados/jmunoz.png){.img-circle}
+![](images/invitados/nacy.png){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}

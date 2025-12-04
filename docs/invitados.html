@@ -73,8 +73,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Invitados – Abre tu Ciencia">
-<meta property="og:image" content="images/invitados/ted.png">
+<meta property="og:image" content="https://atc26.netlify.app/images/invitados/ted.png">
 <meta property="og:site_name" content="Abre tu Ciencia">
+<meta property="og:image:height" content="1946">
+<meta property="og:image:width" content="1556">
 </head>
 
 <body class="nav-fixed invitados-page team-page">
@@ -194,7 +196,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 <h3 class="anchored" data-anchor-id="conferencia-magistral-perspectivas-globales-en-reproducibilidad-y-transparencia.">Conferencia Magistral: perspectivas globales en reproducibilidad y transparencia.</h3>
 <div class="speaker-card-horizontal">
 <div class="speaker-photo">
-<p><img src="images/invitados/jmunoz.png" class="img-circle img-fluid"></p>
+<p><img src="images/invitados/nacy.png" class="img-circle img-fluid"></p>
 </div>
 <div class="speaker-info-horizontal">
 <div class="speaker-name">
@@ -622,7 +624,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/atc26\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
