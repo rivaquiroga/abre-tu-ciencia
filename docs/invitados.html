@@ -73,10 +73,8 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Invitados – Abre tu Ciencia">
-<meta property="og:image" content="https://atc26.netlify.app/images/invitados/ted.png">
+<meta property="og:image" content="images/invitados/ted.png">
 <meta property="og:site_name" content="Abre tu Ciencia">
-<meta property="og:image:height" content="1946">
-<meta property="og:image:width" content="1556">
 </head>
 
 <body class="nav-fixed invitados-page team-page">
@@ -200,13 +198,13 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 </div>
 <div class="speaker-info-horizontal">
 <div class="speaker-name">
-José Antonio Muñoz
+Nancy Pérez
 </div>
 <div class="speaker-role">
-Director del Doctorado en Ciencias de la Complejidad Social. <br> Universidad del Desarrollo.
+Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL). <br> Integrante del Directorio de Enami. Especialista en innovación.
 </div>
 <div class="speaker-bio">
-Doctor en Comportamiento Humano y académico de la Universidad del Desarrollo. Su trabajo se sitúa en la intersección entre psicología, ciencias cognitivas y análisis cuantitativo del comportamiento. Ha desarrollado líneas de investigación orientadas a comprender cómo procesos psicológicos individuales se relacionan con dinámicas sociales más amplias. Su labor integra metodologías experimentales y modelos estadísticos aplicados, contribuyendo a la toma de decisiones en contextos educativos y organizacionales. Actualmente participa en proyectos que buscan fortalecer el uso de evidencia científica en el diseño de políticas públicas basadas en comportamiento. Es director del Diplomado “Programa de investigación científica y generación de conocimiento abierto”.
+Ingeniera Civil en Informática y Magíster en Innovación, Tecnología y Emprendimiento, con amplia experiencia en transformación digital, transferencia tecnológica y desarrollo de soluciones para los sectores minero y energético. Actualmente se desempeña como Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL) y es miembro del directorio de Enami, desde donde impulsa iniciativas de innovación sostenible y articulación público-privada. Su trabajo promueve la adopción de prácticas abiertas en proyectos de I+D, fomentando la disponibilidad de datos, la transparencia en la gestión tecnológica y la colaboración entre industria, academia y Estado para acelerar procesos de innovación con impacto social y ambiental.
 </div>
 <div class="team-links">
 <p><a href="mailto:ja.munoz@udd.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a> <a href="https://dccs.udd.cl/persona/jose-antonio-munoz/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a> <a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></p>
@@ -624,7 +622,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/atc26\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
