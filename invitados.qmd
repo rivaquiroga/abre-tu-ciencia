@@ -46,9 +46,9 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 :::
 
 ::: {.speaker-info-horizontal}
-<div class="speaker-name">José Antonio Muñoz</div>
-<div class="speaker-role">Director del Doctorado en Ciencias de la Complejidad Social. <br> Universidad del Desarrollo. </div>
-<div class="speaker-bio">Doctor en Comportamiento Humano y académico de la Universidad del Desarrollo. Su trabajo se sitúa en la intersección entre psicología, ciencias cognitivas y análisis cuantitativo del comportamiento. Ha desarrollado líneas de investigación orientadas a comprender cómo procesos psicológicos individuales se relacionan con dinámicas sociales más amplias. Su labor integra metodologías experimentales y modelos estadísticos aplicados, contribuyendo a la toma de decisiones en contextos educativos y organizacionales. Actualmente participa en proyectos que buscan fortalecer el uso de evidencia científica en el diseño de políticas públicas basadas en comportamiento. Es director del Diplomado "Programa de investigación científica y generación de conocimiento abierto". </div>
+<div class="speaker-name">Nancy Pérez</div>
+<div class="speaker-role">Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL). <br> Integrante del Directorio de Enami. Especialista en innovación. </div>
+<div class="speaker-bio">Ingeniera Civil en Informática y Magíster en Innovación, Tecnología y Emprendimiento, con amplia experiencia en transformación digital, transferencia tecnológica y desarrollo de soluciones para los sectores minero y energético. Actualmente se desempeña como Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL) y es miembro del directorio de Enami, desde donde impulsa iniciativas de innovación sostenible y articulación público-privada. Su trabajo promueve la adopción de prácticas abiertas en proyectos de I+D, fomentando la disponibilidad de datos, la transparencia en la gestión tecnológica y la colaboración entre industria, academia y Estado para acelerar procesos de innovación con impacto social y ambiental. </div>
 
 ::: {.team-links}
 <a href="mailto:ja.munoz@udd.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
