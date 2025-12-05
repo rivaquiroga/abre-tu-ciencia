@@ -6,13 +6,15 @@ project:
 lang: es
 
 website:
-  open-graph:  
-    image: "https://atc26.netlify.app/images/atc.png"
-  twitter-card:
-    image: "https://atc26.netlify.app/images/atc.png"
-    card-style: summary_large_image
+  open-graph: 
+    image: "/images/atc.png"
+  cookie-consent: false
   title: "Abre tu Ciencia"
-  site-url: "https://atc26.netlify.app"
+  site-url: "https://atc26.netlify.app/"
+  favicon: "/images/atc.png"
+  twitter-card:
+    card-style: summary_large_image
+    image: "/images/atc.png"
   search: 
     location: navbar
     type: overlay
