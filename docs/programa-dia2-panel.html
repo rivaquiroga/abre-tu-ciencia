@@ -75,6 +75,9 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:title" content="Panel: Flujos reproducibles – Abre tu Ciencia">
 <meta property="og:image" content="https://atc26.netlify.app/images/atc.png">
 <meta property="og:site_name" content="Abre tu Ciencia">
+<meta name="twitter:title" content="Panel: Flujos reproducibles – Abre tu Ciencia">
+<meta name="twitter:image" content="https://atc26.netlify.app/images/atc.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed program-page fullcontent">
@@ -122,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://osf.io/7ufwr/overview?view_only=1f24bd6b89144610aee0499ac3529fe5"> <i class="bi bi-box" role="img">
+    <a class="nav-link" href="https://osf.io/7ufwr/overview?view_only=1f24bd6b89144610aee0499ac3529fe5"> <i class="bi bi-dropbox" role="img">
 </i> 
 <span class="menu-text">OSF</span></a>
   </li>  
@@ -267,7 +270,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/atc26\.netlify\.app\/");
+      var filterRegex = new RegExp("https:\/\/atc26\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

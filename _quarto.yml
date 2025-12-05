@@ -6,11 +6,13 @@ project:
 lang: es
 
 website:
-  open-graph: true
-  cookie-consent: false
+  open-graph:  
+    image: "https://atc26.netlify.app/images/atc.png"
+  twitter-card:
+    image: "https://atc26.netlify.app/images/atc.png"
+    card-style: summary_large_image
   title: "Abre tu Ciencia"
-  image: "images/atc.png"
-  site-url: "https://atc26.netlify.app/"
+  site-url: "https://atc26.netlify.app"
   search: 
     location: navbar
     type: overlay
@@ -29,7 +31,7 @@ website:
     right:
       - icon: github
         href: https://github.com/JDConejeros/abre-tu-ciencia
-      - icon: box
+      - icon: dropbox
         text: OSF
         href: https://osf.io/7ufwr/overview?view_only=1f24bd6b89144610aee0499ac3529fe5
   page-footer:
