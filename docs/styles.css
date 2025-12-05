@@ -54,6 +54,41 @@ h1, h2, h3, h4, h5, h6{
 .page-columns { row-gap: 0 !important; }
 #quarto-content, main.content { padding-bottom: 0 !important; margin-bottom: 0 !important; }
 
+/* En móviles, agregar padding-bottom al contenido del index para que el footer no tape el contenido */
+@media (max-width: 991.98px) {
+  /* Cambiar el layout del body en móviles para que el footer baje con el contenido */
+  body.index-page-body {
+    display: block !important; /* Cambiar de flex a block para que el footer baje con el contenido */
+    min-height: 100vh !important;
+    overflow-y: auto !important;
+  }
+  
+  /* Agregar padding-bottom al contenido principal del index */
+  body.index-page-body #quarto-content,
+  body.index-page-body main.content,
+  body.index-page-body .quarto-container,
+  body.index-page-body .index-page {
+    padding-bottom: calc(var(--footer-h) / 2 + 1rem) !important; /* Reducido a la mitad: espacio para el footer + margen */
+    margin-bottom: 0 !important;
+  }
+  
+  /* Permitir que el hero-section se expanda más allá del min-height si el contenido lo requiere */
+  body.index-page-body .hero-section,
+  body.index-page-body #hero {
+    min-height: auto !important;
+    height: auto !important;
+    padding-bottom: 2rem !important; /* Padding adicional en la parte inferior */
+  }
+  
+  /* Asegurar que el footer esté posicionado correctamente y baje con el contenido */
+  body.index-page-body .nav-footer,
+  body.index-page-body .page-footer {
+    position: relative !important;
+    margin-top: 0 !important; /* Quitar margin-top: auto para que no se quede fijo */
+    z-index: 10 !important;
+  }
+}
+
 /* Permitir que el sidebar funcione en programa-main sobrescribiendo page-layout: full */
 body.programa-main .page-columns,
 body.programa-main .quarto-layout-panel{
@@ -1092,6 +1127,24 @@ body.invitados-page .page-footer,
   margin: 0 !important;
   padding: 0 !important;
   line-height: 1.5 !important;
+}
+
+/* Aumentar moderadamente el tamaño de fuente del texto del footer */
+.nav-footer,
+.page-footer {
+  font-size: 0.875rem !important; /* Aumentado moderadamente de ~0.81rem a 0.875rem (14px) */
+}
+
+/* Los enlaces y texto específico del footer */
+.nav-footer a,
+.page-footer a,
+.nav-footer p,
+.page-footer p,
+.nav-footer span,
+.page-footer span,
+.nav-footer div,
+.page-footer div {
+  font-size: inherit !important; /* Heredar del footer */
 }
 
 /* Aumentar tamaño de íconos en footer sin afectar otras áreas */
