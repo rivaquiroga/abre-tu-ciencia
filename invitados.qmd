@@ -218,6 +218,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 :::
 :::
 
+### Conferencia Magistral: Diseño de repositorios de datos abiertos y estándares de metadatos.
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
