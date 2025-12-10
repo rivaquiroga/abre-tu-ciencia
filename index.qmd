@@ -36,7 +36,6 @@ Postula hasta el martes 30 de Diciembre del 2025
 :::
 
 
-
 :::
 :::
 
@@ -95,5 +94,3 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 :::
-
-<br>
