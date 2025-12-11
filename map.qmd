@@ -36,7 +36,7 @@ format:
 
 ![](images/lugar/gob.jpeg){.location-image}
 
-**Edificio Interdisciplinario: Sala Magíster, 3º Piso.**
+**Jueves 22/01/2026 - Edificio Interdisciplinario: Sala Magíster, 3º Piso.**
 :::
 
 ::: {.column}
@@ -44,7 +44,7 @@ format:
 
 ![](images/lugar/college.jpg){.location-image}
 
-**Sala San Andrés, 2º Piso.**
+**Viernes 23/01/2026 - Sala San Andrés, 2º Piso.**
 :::
 :::
 
