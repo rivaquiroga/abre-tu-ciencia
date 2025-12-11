@@ -1,5 +1,6 @@
 ---
 title: "Workshop Abre tu Ciencia"
+image: https://raw.githubusercontent.com/JDConejeros/abre-tu-ciencia/refs/heads/main/images/logos/atc.png
 format:
   html:
     sidebar: false
