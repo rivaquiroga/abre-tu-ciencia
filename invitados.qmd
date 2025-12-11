@@ -156,31 +156,32 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 :::
 :::
 
-### Laboratorio 2: Control de versiones y repositorios en Git y GitHub.
+### Laboratorio 2: Construyendo un flujo de trabajo reproducible con R y {targets}
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![](images/invitados/rquiroga.png){.img-circle}
+![](images/invitados/jconejeros.jpg){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
-<div class="speaker-name">Riva Quiroga</div>
-<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div> 
-<div class="speaker-bio"> Doctora en Lingüística y cofundadora de iniciativas locales y regionales como R-Ladies Santiago, R-Ladies Valparaíso, PyLadies Valparaíso, LatinR y la comunidad de desarrollo de software de investigación de Chile (RSE Chile). Es Fellow del Software Sustainability Institute y editora en Programming Historian, donde contribuye a la publicación de tutoriales multilingües revisados por pares sobre herramientas abiertas útiles para la investigación y la enseñanza. Ha promovido ampliamente flujos reproducibles y open source en Chile y América Latina. A través de talleres, comunidad y software abierto, trabaja para democratizar el acceso a herramientas de análisis y visualización de datos y para reconocer el trabajo de quienes desarrollan el código que hace la investigación posible. Su labor contribuye al fortalecimiento de una cultura de investigación abierta, inclusiva y reproducible, facilitando que más investigadoras e investigadores adopten buenas prácticas de ciencia abierta.</div>
+<div class="speaker-name">José Daniel Conejeros</div>
+<div class="speaker-role"> Investigador Joven. <br> Escuela de Gobierno & College UC. </div>
+<div class="speaker-bio">Magíster en Estadística por la Pontificia Universidad Católica de Chile, con formación en Data Science. Su trabajo se sitúa en la intersección entre salud pública, estadística aplicada y computación reproducible, integrando modelamiento estadístico, machine learning y análisis automatizado de datos con R y Python. Ha sido docente en la Universidad Diego Portales y en la Escuela de Gobierno UC, donde imparte cursos en Big Data, métodos causales, evaluación de impacto, procesamiento y visualización de datos, y modelos multinivel. Su labor académica promueve prácticas de ciencia abierta mediante el uso de flujos de trabajo reproducibles en R, automatización analítica con {targets} e integración de agentes de IA para mejorar la trazabilidad y transparencia de los procesos de investigación. Ha participado como investigador y analista cuantitativo en proyectos FONDECYT, contribuyendo a la construcción de evidencia robusta para el diseño y evaluación de políticas públicas.</div>
 
 ::: {.team-links}
-<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
-<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 :::
 :::
+
 
 ### Laboratorio 3: Documentos dinámicos con Quarto
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![Invitado 3](images/invitados/sorellana.png){.img-circle}
+![](images/invitados/sorellana.png){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
@@ -281,6 +282,25 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
+![](images/invitados/rquiroga.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Riva Quiroga</div>
+<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+<div class="speaker-bio"> Doctora en Lingüística y cofundadora de iniciativas locales y regionales como R-Ladies Santiago, R-Ladies Valparaíso, PyLadies Valparaíso, LatinR y la comunidad de desarrollo de software de investigación de Chile (RSE Chile). Es Fellow del Software Sustainability Institute y editora en Programming Historian, donde contribuye a la publicación de tutoriales multilingües revisados por pares sobre herramientas abiertas útiles para la investigación y la enseñanza. Ha promovido ampliamente flujos reproducibles y open source en Chile y América Latina. A través de talleres, comunidad y software abierto, trabaja para democratizar el acceso a herramientas de análisis y visualización de datos y para reconocer el trabajo de quienes desarrollan el código que hace la investigación posible. Su labor contribuye al fortalecimiento de una cultura de investigación abierta, inclusiva y reproducible, facilitando que más investigadoras e investigadores adopten buenas prácticas de ciencia abierta.</div>
+
+::: {.team-links}
+<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
 ![](images/invitados/sflores.jpg){.img-circle}
 :::
 
@@ -297,14 +317,17 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 :::
 :::
 
+
+### Laboratorio 4: Control de versiones y repositorios en Git y GitHub.
+
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![Invitado 3](images/invitados/rquiroga.png){.img-circle}
+![](images/invitados/rquiroga.png){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
 <div class="speaker-name">Riva Quiroga</div>
-<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div> 
 <div class="speaker-bio"> Doctora en Lingüística y cofundadora de iniciativas locales y regionales como R-Ladies Santiago, R-Ladies Valparaíso, PyLadies Valparaíso, LatinR y la comunidad de desarrollo de software de investigación de Chile (RSE Chile). Es Fellow del Software Sustainability Institute y editora en Programming Historian, donde contribuye a la publicación de tutoriales multilingües revisados por pares sobre herramientas abiertas útiles para la investigación y la enseñanza. Ha promovido ampliamente flujos reproducibles y open source en Chile y América Latina. A través de talleres, comunidad y software abierto, trabaja para democratizar el acceso a herramientas de análisis y visualización de datos y para reconocer el trabajo de quienes desarrollan el código que hace la investigación posible. Su labor contribuye al fortalecimiento de una cultura de investigación abierta, inclusiva y reproducible, facilitando que más investigadoras e investigadores adopten buenas prácticas de ciencia abierta.</div>
 
 ::: {.team-links}
@@ -315,11 +338,12 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 :::
 :::
 
-### Laboratorio 4: Construyendo un flujo de trabajo reproducible con R y {targets} <br> Y Laboratorio 5: Cursor y otros agentes de IA para automatizar flujos de trabajo
+
+###  Laboratorio 5: Cursor y otros agentes de IA para automatizar flujos de trabajo
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![Invitado 1](images/invitados/jconejeros.jpg){.img-circle}
+![](images/invitados/jconejeros.jpg){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
