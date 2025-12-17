@@ -74,7 +74,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.team-links}
 <a href="mailto:juancastillov@uchile.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="jc-castillo.com" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://jc-castillo.com/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
 <a href="https://github.com/juancarloscastillo" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 :::
