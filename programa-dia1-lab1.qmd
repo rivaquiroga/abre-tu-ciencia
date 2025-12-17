@@ -6,9 +6,11 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br><br>
+<br><br><br>
 
 # Laboratorio 1: Pre-registros y reportes en Open Science Framework
 
@@ -26,4 +28,4 @@ Este laboratorio práctico introduce a los participantes en el uso de Open Scien
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

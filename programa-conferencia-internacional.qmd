@@ -6,15 +6,17 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br><br>
+<br><br><br>
 
-# Conferencia Internacional: Perspectivas globales sobre reproducibilidad y transparencia en ciencia
+# Reproducibilidad con Impacto: Cómo la Ciencia Abierta Puede Cambiar el Mundo.
 
-**Fecha:** 22 de Enero, 2026
+**Fecha:** 23 de Enero, 2026
 
-**Horario:** 09:00 am - 10:00 am
+**Horario:** 04:40 pm - 05:30 pm
 
 Esta conferencia magistral aborda las perspectivas globales sobre reproducibilidad y transparencia en ciencia, explorando los desafíos y oportunidades que enfrenta la comunidad científica internacional en la promoción de prácticas de ciencia abierta. El expositor compartirá experiencias y reflexiones sobre cómo fortalecer la credibilidad y el impacto de la investigación científica a través de estándares de transparencia y reproducibilidad.
 
@@ -26,6 +28,6 @@ Esta conferencia magistral aborda las perspectivas globales sobre reproducibilid
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 

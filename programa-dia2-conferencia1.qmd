@@ -6,9 +6,11 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br><br>
+<br><br><br>
 
 # Conferencia Magistral: Diseño de protocolos, códigos y datos abiertos
 
@@ -32,4 +34,4 @@ Esta conferencia magistral aborda estrategias para el diseño de protocolos de i
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

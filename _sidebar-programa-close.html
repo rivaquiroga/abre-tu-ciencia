@@ -1,0 +1,24 @@
+</div>
+
+</div>
+
+<script>
+// Marcar el enlace activo basado en la URL actual
+document.addEventListener('DOMContentLoaded', function() {
+  const currentPath = window.location.pathname.split('/').pop() || 'preworkshop.html';
+  const links = document.querySelectorAll('.program-sidebar-menu a');
+  
+  links.forEach(link => {
+    const linkPath = link.getAttribute('href');
+    // Comparar nombres de archivo sin extensión para mayor flexibilidad
+    const currentFile = currentPath.replace('.html', '');
+    const linkFile = linkPath.replace('.html', '');
+    
+    if (linkPath === currentPath || currentFile === linkFile || currentPath.includes(linkFile)) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+});
+</script>

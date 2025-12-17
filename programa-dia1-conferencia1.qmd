@@ -6,9 +6,18 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br><br>
+<br><br><br>
+
+# Bienvenida
+
+Equipo Organizador de Abre tu Ciencia 2026: Magdalena Gatsch, José Daniel Conejeros, María Spencer-Sandino, Estela Blanco; Eduardo Undurraga.  
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+
 
 # Conferencia Magistral: Perspectivas globales en reproducibilidad y transparencia
 
@@ -26,4 +35,4 @@ Esta conferencia magistral explora las perspectivas globales sobre reproducibili
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -6,9 +6,11 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br><br>
+<br><br><br>
 
 # Panel de Discusión: Dimensiones éticas e institucionales de la ciencia abierta
 
@@ -38,4 +40,4 @@ Este panel de discusión aborda las dimensiones éticas e institucionales asocia
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
