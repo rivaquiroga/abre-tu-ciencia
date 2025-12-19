@@ -29,6 +29,7 @@ format:
 
 **Dirección:** Av. Vicuña Mackenna 4860, 7820436 Macul, Región Metropolitana.
 
+Puedes encontrar la ubicación exacta de las salas aquí: <https://ubicate.osuc.dev/>
 
 ::: {.columns}
 ::: {.column}
@@ -36,7 +37,7 @@ format:
 
 ![](images/lugar/gob.jpeg){.location-image}
 
-**Jueves 22/01/2026 - Edificio Interdisciplinario: Sala Magíster, 3º Piso.**
+**Jueves 22/01/2026 - Edificio Interdisciplinario: Sala ID300, 3º Piso.**
 :::
 
 ::: {.column}
@@ -51,3 +52,4 @@ format:
 :::
 :::
 :::
+
