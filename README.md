@@ -4,19 +4,61 @@ Sitio web para el workshop "Open Science in a Nutshell: Tools, Theory, and Pract
 
 ## Estructura del Sitio
 
+### Páginas Principales
+
 - **Inicio** (`index.qmd`): Página principal con animación Vanta.NET de fondo
-- **Equipo** (`equipo.qmd`): Presentación del equipo organizador con imágenes circulares (3 por fila)
+- **Colaboradores** (`colaboradores.qmd`): Presentación del equipo organizador con imágenes circulares
 - **Invitados** (`invitados.qmd`): Presentación de los expertos invitados con imágenes circulares (3 por fila)
 - **Programa** (`programa.qmd`): Integración con Google Sheets para mostrar la agenda y mapa de ubicación
+- **Lugar** (`map.qmd`): Mapa interactivo con la ubicación del evento
+- **Contenido** (`preworkshop.qmd`): Página de entrada al contenido del programa con sidebar de navegación
+
+### Páginas del Programa
+
+Todas las páginas del programa incluyen un sidebar fijo a la izquierda con navegación y scroll automático al elemento activo:
+
+**Pre-Workshop:**
+- `preworkshop.qmd`: Sesión pre-workshop
+
+**Día 1 - 22 de Enero:**
+- `programa-dia1-bienvenida.qmd`: Bienvenida
+- `programa-dia1-conferencia1.qmd`: Conferencia: ¿Por qué importa la Ciencia Abierta?
+- `programa-dia1-conferencia2.qmd`: Conferencia: Buenas prácticas de Ciencia Abierta
+- `programa-dia1-panel.qmd`: Panel: Dimensiones éticas e institucionales
+- `programa-dia1-lab1.qmd`: Laboratorio 1: Pre-registros
+- `programa-dia1-lab2.qmd`: Laboratorio 2: R y {targets}
+- `programa-dia1-lab3.qmd`: Laboratorio 3: Quarto
+
+**Día 2 - 23 de Enero:**
+- `programa-dia2-conferencia1.qmd`: Conferencia: Protocolos y datos abiertos
+- `programa-dia2-conferencia2.qmd`: Conferencia: IA y reproducibilidad científica
+- `programa-dia2-panel.qmd`: Panel: Flujos reproducibles
+- `programa-dia2-lab4.qmd`: Laboratorio 4: Git y GitHub
+- `programa-dia2-lab5.qmd`: Laboratorio 5: Cursor e IA para Ciencia Abierta
+- `programa-conferencia-internacional.qmd`: Conferencia Internacional
+
+### Archivos de Configuración y Estilos
+
+- `_quarto.yml`: Configuración global del sitio Quarto
+- `_sidebar-programa.html`: HTML parcial para el sidebar de navegación (incluido antes del contenido)
+- `_sidebar-programa-close.html`: HTML parcial de cierre del sidebar con JavaScript para marcado activo y scroll automático
+- `programa-dia.scss`: Estilos SCSS para el formato de ponentes en las páginas del programa
+- `custom.scss`: Estilos personalizados globales
+- `styles.css`: Estilos CSS adicionales
 
 ## Tecnologías
 
 - **Quarto**: Sistema de publicación científica y técnica
 - **Markdown (.qmd)**: Archivos fuente en formato Quarto Markdown
-- **CSS3**: Estilos personalizados con tipografía Lato (tipografía por defecto de Quarto)
-- **JavaScript**: Animación Vanta.NET para la página de inicio
+- **CSS3/SCSS**: Estilos personalizados con tipografía Lato (tipografía por defecto de Quarto)
+- **JavaScript**: 
+  - Animación Vanta.NET para la página de inicio
+  - Navegación y scroll automático del sidebar
+  - Botón de traducción de idioma (Google Translate)
+  - Animaciones de transición entre páginas
 - **Google Sheets**: Integración para el programa del workshop
-- **Google Maps**: Mapa interactivo con la ubicación del Metro San Joaquín
+- **Google Maps**: Mapa interactivo con la ubicación del evento
+- **Google Translate**: Widget de traducción inglés/español integrado en el navbar
 
 ## Requisitos
 
@@ -34,7 +76,7 @@ quarto render
 quarto preview
 ```
 
-El sitio se renderizará en la carpeta `_site/`.
+El sitio se renderizará en la carpeta `docs/`.
 
 ## Despliegue
 
@@ -91,7 +133,7 @@ Para desplegar en Netlify:
 4. Selecciona el repositorio `abre-tu-ciencia`
 5. Configuración de build:
    - **Build command**: `quarto render`
-   - **Publish directory**: `_site`
+   - **Publish directory**: `docs`
 6. Click en **Deploy site**
 
 **Nota:** Netlify necesita tener Quarto instalado. Puedes usar el buildpack de Quarto o configurar un script de build que instale Quarto.
@@ -101,78 +143,13 @@ Para desplegar en Netlify:
 1. En Netlify, ve a **Site settings** > **Domain management**
 2. Puedes usar el dominio generado automáticamente o agregar un dominio personalizado
 
-## Edición de Contenido
+## Características Principales
 
-### Agregar Miembros del Equipo
-
-Edita `equipo.qmd` y agrega nuevas tarjetas siguiendo este formato:
-
-```markdown
-::: {.speaker-card}
-::: {.speaker-photo}
-![Nombre Completo](ruta/a/foto.jpg){.img-circle}
-:::
-
-::: {.speaker-info}
-### Nombre Completo
-**Rol en el Workshop**
-
-Descripción breve...
-
-::: {.team-links}
-[Email](mailto:email@example.com){.team-link} | [Sitio Web](https://website.com){.team-link} | [GitHub](https://github.com/username){.team-link}
-:::
-:::
-:::
-```
-
-### Agregar Invitados
-
-Edita `invitados.qmd` y agrega nuevas tarjetas:
-
-```markdown
-::: {.speaker-card}
-::: {.speaker-photo}
-![Nombre Completo](ruta/a/foto.jpg){.img-circle}
-:::
-
-::: {.speaker-info}
-### Nombre Completo
-**Institución / Cargo**
-
-Biografía breve...
-:::
-:::
-```
-
-### Actualizar el Programa
-
-El programa se actualiza automáticamente desde Google Sheets. Para que el embed funcione correctamente:
-
-1. **Compartir la hoja de cálculo:**
-   - En Google Sheets, haz click en **Share** (Compartir)
-   - Cambia los permisos a **"Anyone with the link"** (Cualquiera con el enlace)
-   - Selecciona **"Viewer"** (Lector)
-
-2. **Publicar para web (opcional pero recomendado):**
-   - Ve a **File** > **Share** > **Publish to the web**
-   - Selecciona la pestaña que quieres publicar
-   - Haz click en **Publish**
-   - Copia la URL generada si necesitas usar un formato diferente
-
-3. **Verificar el embed:**
-   - El iframe en `programa.qmd` usa la URL: `https://docs.google.com/spreadsheets/d/SHEET_ID/preview`
-   - Si el embed no funciona, verifica que la hoja esté compartida públicamente
-   - Como alternativa, puedes usar la URL de publicación: `https://docs.google.com/spreadsheets/d/e/SHEET_ID/pubhtml?widget=true&headers=false`
-
-### Actualizar el Mapa
-
-Para actualizar el mapa con la ubicación correcta del Metro San Joaquín:
-
-1. Busca "Estación San Joaquín Metro" en [Google Maps](https://www.google.com/maps)
-2. Haz clic en **Compartir** > **Insertar un mapa**
-3. Copia el código HTML del iframe
-4. Reemplaza el iframe en `programa.qmd` con el código copiado
+- **Sidebar de navegación fijo**: Menú lateral fijo en todas las páginas del programa con scroll automático al elemento activo
+- **Traducción de idioma**: Botón de cambio de idioma (español/inglés) integrado en el navbar usando Google Translate
+- **Formato de ponentes**: Estilos consistentes para mostrar información de ponentes con imágenes circulares y layout horizontal
+- **Animaciones**: Transiciones suaves entre páginas y animación de fondo en la página de inicio
+- **Diseño responsive**: Adaptación automática para dispositivos móviles y tablets
 
 ## Licencia
 
