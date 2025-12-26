@@ -66,6 +66,8 @@ Esta conferencia aborda estrategias para el diseño de protocolos de investigaci
 :::
 </div>
 
+**Diseño de Repositorios de Datos Abiertos y Estándares de Metadatos**
+
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
