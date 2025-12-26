@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+/* Estilos específicos para todas las páginas programa-dia* - imagen y texto del speaker en la misma línea */
+.program-main-content .speaker-photo {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.program-main-content .speaker-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.program-main-content .speaker-info-horizontal {
+  display: inline-block;
+  vertical-align: top;
+  max-width: calc(100% - 190px);
+  flex: 1;
+}
+
+.program-main-content .speaker-info-horizontal .speaker-name {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.program-main-content .speaker-info-horizontal .speaker-role {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .program-main-content .speaker-photo {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .program-main-content .speaker-info-horizontal {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+}

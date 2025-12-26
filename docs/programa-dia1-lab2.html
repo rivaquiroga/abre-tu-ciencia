@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-eaf3a99e70dffe3875ac5c575387fb6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-32cad36a43fc37b5ce4f0869f8d6ac17.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -193,12 +193,12 @@ body.program-page .program-sidebar-menu {
   position: fixed;
   left: 0;
   top: var(--navbar-h);
-  width: 280px;
-  height: calc(100vh - var(--navbar-h) - var(--footer-h, 72px));
+  width: 320px;
+  height: calc(100vh - var(--navbar-h));
   background: #f8f9fa;
   border-right: 1px solid #e0e0e0;
   padding: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 1;
@@ -240,9 +240,14 @@ body.program-page .program-sidebar-menu a:hover {
 }
 
 body.program-page .program-sidebar-menu a.active {
-  background: var(--primary-color);
-  color: white;
-  font-weight: 600;
+  background: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+body.program-page .program-sidebar-menu a.active:hover {
+  background: var(--primary-color) !important;
+  color: white !important;
 }
 
 body.program-page .program-sidebar-menu .section-title {
@@ -260,10 +265,10 @@ body.program-page .program-sidebar-menu .section-title:first-child {
 }
 
 body.program-page .program-main-content {
-  margin-left: 280px;
+  margin-left: 320px;
   padding: 2rem var(--body-gutter);
   min-height: calc(100vh - var(--navbar-h));
-  max-width: calc(100% - 280px);
+  max-width: calc(100% - 320px);
   box-sizing: border-box;
   font-size: 1.05rem;
   line-height: 1.7;
@@ -332,7 +337,8 @@ body.program-page .page-footer {
     <li><a href="preworkshop.html">Pre-Workshop</a></li>
     
     <li class="section-title">Día 1: 22 de Enero</li>
-    <li><a href="programa-dia1-conferencia1.html">Conferencia: ¿Por qué importa la Ciencia Abierta?</a></li>
+    <li><a href="programa-dia1-bienvenida.html">Bienvenida: ¿Por qué importa la Ciencia Abierta?</a></li>
+    <li><a href="programa-dia1-conferencia1.html">Conferencia: Perspectivas globales en Ciencia Abierta</a></li>
     <li><a href="programa-dia1-conferencia2.html">Conferencia: Buenas prácticas de Ciencia Abierta</a></li>
     <li><a href="programa-dia1-panel.html">Panel: Dimensiones éticas e institucionales</a></li>
     <li><a href="programa-dia1-lab1.html">Laboratorio 1: Pre-registros</a></li>
@@ -345,7 +351,7 @@ body.program-page .page-footer {
     <li><a href="programa-dia2-panel.html">Panel: Flujos reproducibles</a></li>
     <li><a href="programa-dia2-lab4.html">Laboratorio 4: Git y GitHub</a></li>
     <li><a href="programa-dia2-lab5.html">Laboratorio 5: Cursor e IA para Ciencia Abierta</a></li>
-    <li><a href="programa-conferencia-internacional.html">Conferencia Internacional</a></li>
+    <li><a href="programa-conferencia-internacional.html"><b>Conferencia Internacional</b></a></li>
   </ul>
 </nav>
 
@@ -370,14 +376,28 @@ body.program-page .page-footer {
 </header>
 
 
-<p><br><br><br></p>
+<p><br></p>
 <section id="laboratorio-2-construyendo-un-flujo-de-trabajo-reproducible-con-r-y-targets" class="level1">
 <h1>Laboratorio 2: Construyendo un flujo de trabajo reproducible con R y {targets}</h1>
-<p><strong>Fecha:</strong> 22 de Enero, 2026</p>
-<p><strong>Horario:</strong> 03:30 pm - 04:30 pm</p>
+<p><br></p>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+<div class="speaker-photo">
+<p><img src="images/invitados/jconejeros.jpg" class="img-circle img-fluid"></p>
+</div>
+<div class="speaker-info-horizontal">
+<div class="speaker-name">
+José Daniel Conejeros
+</div>
+<div class="speaker-role">
+Investigador Joven. <br> Escuela de Gobierno &amp; College UC.
+</div>
+<div class="team-links">
+<p><a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a> <a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></p>
+</div>
+</div>
+</div>
+<p><strong>Fecha:</strong> Jueves 22 de Enero, 2026 - <strong>Horario:</strong> 03:30 pm - 04:30 pm</p>
 <p>Este laboratorio práctico enseña a construir flujos de trabajo reproducibles usando el paquete {targets} de R, permitiendo a los participantes automatizar análisis complejos, gestionar dependencias entre pasos y mantener trazabilidad completa de sus procesos de investigación. Los asistentes aprenderán a estructurar proyectos, definir pipelines de análisis y generar reportes que documentan cada etapa del proceso investigativo.</p>
-<p><strong>Materiales</strong></p>
-<p><strong>Expositor:</strong> José Daniel Conejeros</p>
 <p><a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a> <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a> <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a></p>
 <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
 
@@ -390,24 +410,96 @@ body.program-page .page-footer {
 </div>
 
 <script>
-// Marcar el enlace activo basado en la URL actual
-document.addEventListener('DOMContentLoaded', function() {
-  const currentPath = window.location.pathname.split('/').pop() || 'preworkshop.html';
-  const links = document.querySelectorAll('.program-sidebar-menu a');
-  
-  links.forEach(link => {
-    const linkPath = link.getAttribute('href');
-    // Comparar nombres de archivo sin extensión para mayor flexibilidad
-    const currentFile = currentPath.replace('.html', '');
-    const linkFile = linkPath.replace('.html', '');
+// Marcar el enlace activo basado en la URL actual y hacer scroll automático
+(function() {
+  function markActiveLink() {
+    // Obtener el nombre del archivo actual de la URL
+    const currentPath = window.location.pathname;
+    const currentFile = currentPath.split('/').pop() || '';
     
-    if (linkPath === currentPath || currentFile === linkFile || currentPath.includes(linkFile)) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
+    // Si no hay archivo, usar index o la página por defecto
+    if (!currentFile || currentFile === '' || currentFile === '/') {
+      return;
     }
-  });
-});
+    
+    const sidebar = document.querySelector('.program-sidebar-menu');
+    const links = document.querySelectorAll('.program-sidebar-menu a');
+    
+    if (links.length === 0) {
+      // Si no hay links aún, intentar de nuevo
+      setTimeout(markActiveLink, 200);
+      return;
+    }
+    
+    let activeLink = null;
+    
+    links.forEach(link => {
+      // Remover clase active primero
+      link.classList.remove('active');
+      
+      const linkHref = link.getAttribute('href');
+      if (!linkHref) return;
+      
+      // Obtener solo el nombre del archivo del href
+      const linkFile = linkHref.split('/').pop() || linkHref;
+      
+      // Comparar nombres de archivo (con y sin .html)
+      const currentFileClean = currentFile.replace('.html', '').toLowerCase();
+      const linkFileClean = linkFile.replace('.html', '').toLowerCase();
+      
+      // Comparación exacta
+      const isExactMatch = currentFile === linkFile || 
+                          currentFile.replace('.html', '') === linkFile.replace('.html', '');
+      
+      // Comparación normalizada
+      const isNormalizedMatch = currentFileClean === linkFileClean && currentFileClean !== '';
+      
+      // Comparación por inclusión (para casos con rutas relativas)
+      const isPathMatch = currentPath.includes(linkFile) || 
+                        currentPath.endsWith(linkFile);
+      
+      if (isExactMatch || isNormalizedMatch || isPathMatch) {
+        link.classList.add('active');
+        activeLink = link;
+      }
+    });
+    
+    // Hacer scroll al enlace activo si existe
+    if (activeLink && sidebar) {
+      // Calcular la posición del elemento activo relativa al sidebar
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const linkRect = activeLink.getBoundingClientRect();
+      
+      // Calcular el scroll necesario para centrar el elemento activo
+      const scrollTop = sidebar.scrollTop;
+      const linkOffsetTop = activeLink.offsetTop;
+      const sidebarHeight = sidebar.clientHeight;
+      const linkHeight = activeLink.offsetHeight;
+      
+      // Scroll para centrar el elemento activo en el área visible
+      const targetScroll = linkOffsetTop - (sidebarHeight / 2) + (linkHeight / 2);
+      
+      // Hacer scroll suave al elemento activo
+      sidebar.scrollTo({
+        top: Math.max(0, targetScroll - 20), // -20 para un poco de padding superior
+        behavior: 'smooth'
+      });
+    }
+  }
+  
+  // Ejecutar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(markActiveLink, 50);
+    });
+  } else {
+    markActiveLink();
+  }
+  
+  // También ejecutar después de un delay para asegurar que todo esté cargado
+  setTimeout(markActiveLink, 200);
+  setTimeout(markActiveLink, 500);
+})();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

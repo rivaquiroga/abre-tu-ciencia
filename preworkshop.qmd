@@ -6,26 +6,43 @@ format:
     page-layout: custom
     main-container: default
     toc: true
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Pre-Workshop: Introducción a Positron
 
-**Fecha:** 21 de Enero, 2026
+<br>
 
-**Horario:** 06:30 pm - 09:00 pm
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/jconejeros.jpg){.img-circle}
+:::
 
-Este taller introductorio permitirá a las y los participantes configurar correctamente su entorno de trabajo en R y familiarizarse con las interfaces de RStudio y Positron IDE. Revisaremos las funciones básicas de cada plataforma y ejecutaremos scripts simples para garantizar que todos cuenten con las herramientas necesarias antes de avanzar. Al finalizar, quienes asistan estarán preparados para aprovechar plenamente los laboratorios posteriores.
+::: {.speaker-info-horizontal}
+<div class="speaker-name">José Daniel Conejeros</div>
+<div class="speaker-role"> Investigador Joven. <br> Escuela de Gobierno & College UC. </div>
 
-**Expositor:** José Daniel Conejeros
+::: {.team-links}
+<a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
-**Materiales**
+**Fecha:** Miércoles 21 de Enero, 2026 - **Horario:** 06:30 pm - 09:00 pm
+
+Este taller introductorio busca que las y los participantes puedan configurar correctamente su entorno de trabajo en R y familiarizarse con las interfaces de RStudio y Positron IDE. Revisaremos las funciones básicas de cada plataforma y ejecutaremos scripts simples para garantizar que todos cuenten con las herramientas necesarias antes de avanzar. Al finalizar, quienes asistan estarán preparados para aprovechar plenamente los laboratorios posteriores.
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+

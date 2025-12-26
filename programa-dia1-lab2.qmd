@@ -6,23 +6,40 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Laboratorio 2: Construyendo un flujo de trabajo reproducible con R y {targets}
 
-**Fecha:** 22 de Enero, 2026
+<br>
 
-**Horario:** 03:30 pm - 04:30 pm
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/jconejeros.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">José Daniel Conejeros</div>
+<div class="speaker-role"> Investigador Joven. <br> Escuela de Gobierno & College UC. </div>
+
+::: {.team-links}
+<a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
+
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 03:30 pm - 04:30 pm
 
 Este laboratorio práctico enseña a construir flujos de trabajo reproducibles usando el paquete {targets} de R, permitiendo a los participantes automatizar análisis complejos, gestionar dependencias entre pasos y mantener trazabilidad completa de sus procesos de investigación. Los asistentes aprenderán a estructurar proyectos, definir pipelines de análisis y generar reportes que documentan cada etapa del proceso investigativo.
-
-**Materiales**
-
-**Expositor:** José Daniel Conejeros
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>

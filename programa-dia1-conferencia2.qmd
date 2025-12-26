@@ -6,27 +6,43 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Conferencia Magistral: Buenas prácticas para datos y código abierto
 
-**Fecha:** 22 de Enero, 2026
+<br>
 
-**Horario:** 10:00 am - 11:00 am
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/jccastillo.jpeg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Juan Carlos Castillo</div>
+<div class="speaker-role">Profesor Titular del Departamento de Sociología. <br> Universidad de Chile. </div>
+
+::: {.team-links}
+<a href="mailto:juancastillov@uchile.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://jc-castillo.com/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/juancarloscastillo" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
+
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 10:00 am - 11:00 am
 
 Esta conferencia presenta estrategias y herramientas para implementar buenas prácticas en el manejo de datos y código abierto, enfocándose en estándares de documentación, organización de repositorios y flujos de trabajo que facilitan la reproducibilidad y el acceso abierto al conocimiento científico. Se abordarán casos prácticos y recursos disponibles para investigadores que buscan adoptar estas prácticas en sus proyectos.
-
-**Expositor:** Juan Carlos Castillo
-
-**Materiales**
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 

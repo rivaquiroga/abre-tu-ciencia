@@ -6,28 +6,45 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Laboratorio 4: Control de versiones y repositorios en Git y GitHub
 
-**Fecha:** 22 de Enero, 2026
-
-**Horario:** 02:00 pm - 03:00 pm
+<br>
 
 
-Este laboratorio práctico ilustra el uso de Git y GitHub como herramientas clave para el desarrollo de proyectos abiertos y reproducibles. Sus participantes aprenderán a organizar repositorios para compartir código o datos y documentar adecuadamente su trabajo. Además, se revvisará cómo convertir estos repositorios en outputs de investigación citables mediante buenas prácticas de publicación, licenciamiento y vinculación con identificadores persistentes. 
-El laboratorio supone un conocimiento básico de Git y GitHub (por ejemplo, saber cómo hacer _push_ y _pull_ en un repositorio propio).
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/rquiroga.png){.img-circle}
+:::
 
-**Materiales**
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Riva Quiroga</div>
+<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
 
-**Expositora:** Riva Quiroga
+::: {.team-links}
+<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
+
+**Fecha:** Viernes 23 de Enero, 2026 - **Horario:** 02:00 pm - 03:00 pm
+
+Este laboratorio práctico ilustra el uso de Git y GitHub como herramientas clave para el desarrollo de proyectos abiertos y reproducibles. Sus participantes aprenderán a organizar repositorios para compartir código o datos y documentar adecuadamente su trabajo. Además, se revisará cómo convertir estos repositorios en outputs de investigación citables mediante buenas prácticas de publicación, licenciamiento y vinculación con identificadores persistentes. 
+
+*Nota*: El laboratorio supone un conocimiento básico de Git y GitHub (por ejemplo, saber cómo hacer _push_ y _pull_ en un repositorio propio).
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -6,33 +6,42 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
-
-# Bienvenida
-
-Equipo Organizador de Abre tu Ciencia 2026: Magdalena Gatsch, José Daniel Conejeros, María Spencer-Sandino, Estela Blanco; Eduardo Undurraga.  
-
-<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
-
+<br>
 
 # Conferencia Magistral: Perspectivas globales en reproducibilidad y transparencia
 
-**Fecha:** 22 de Enero, 2026
+<br>
 
-**Horario:** 09:00 am - 10:00 am
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/squiroz.jpeg){.img-circle}
+:::
 
-Esta conferencia magistral explora las perspectivas globales sobre reproducibilidad y transparencia en la investigación científica, abordando los desafíos y oportunidades que enfrentan investigadores e instituciones en la promoción de prácticas de ciencia abierta. Se discutirán estándares internacionales, marcos normativos y estrategias para fortalecer la credibilidad y el impacto de la investigación a través de la transparencia metodológica y la reproducibilidad de resultados.
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Soledad Quiroz Valenzuela</div>
+<div class="speaker-role">Directora de Gestión Institucional y Vinculación. <br> Data Observatory. </div>
 
-**Expositor:** José Antonio Muñoz
+::: {.team-links}
+<a href="mailto:soledad.quiroz@dataobservatory.net" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/squiroz/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
-**Materiales**
+
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 09:00 am - 10:00 am
+
+Esta conferencia explora perspectivas globales sobre reproducibilidad y transparencia en la investigación científica, abordando los desafíos y oportunidades que enfrentan investigadores e instituciones en la promoción de prácticas de ciencia abierta. Se espera que pueda discutir sobre estándares internacionales, marcos normativos y estrategias para fortalecer la credibilidad y el impacto de la investigación a través de la transparencia metodológica y la reproducibilidad de resultados.
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -6,26 +6,41 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br><br>
 
 # Laboratorio 1: Pre-registros y reportes en Open Science Framework
 
-**Fecha:** 22 de Enero, 2026
+<br>
 
-**Horario:** 02:00 pm - 03:00 pm
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/mgat.png){.img-circle}
+:::
 
-Este laboratorio práctico introduce a los participantes en el uso de Open Science Framework (OSF) para realizar pre-registros de investigación y crear reportes transparentes. Los asistentes aprenderán a estructurar proyectos de investigación, documentar metodologías antes de la recolección de datos, y compartir materiales de manera organizada y accesible, fortaleciendo la credibilidad y reproducibilidad de sus investigaciones.
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Magdalena Gatsch</div>
+<div class="speaker-role">Investigadora Joven Observatorio de Bioética y Derecho. <br> Universidad del Desarrollo.</div>
 
-**Materiales**
+::: {.team-links}
+<a href="mailto:mmgatsch@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/magdalena-gatsch-bezanilla-3562991b4/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/MagdalenaGatsch" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
-**Expositora:** Magdalena Gatsch
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 02:00 pm - 03:00 pm
+
+Este laboratorio práctico busca introducir a los participantes en el uso de Open Science Framework (OSF) para realizar pre-registros de investigación y crear reportes transparentes. Los asistentes aprenderán a estructurar proyectos de investigación, documentar metodologías antes de la recolección de datos, y compartir materiales de manera organizada y accesible, fortaleciendo la credibilidad y reproducibilidad de sus investigaciones.
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

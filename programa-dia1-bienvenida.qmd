@@ -1,0 +1,27 @@
+---
+title: "Conferencia: Perspectivas globales"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
+    include-before-body: _sidebar-programa.html
+    include-after-body: _sidebar-programa-close.html
+---
+
+<br>
+
+# Bienvenida
+
+<br>
+
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 09:00 am - 10:00 am
+
+Equipo Organizador de Abre tu Ciencia 2026: Magdalena Gatsch, José Daniel Conejeros, María Spencer-Sandino, Estela Blanco; Eduardo Undurraga.  
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>

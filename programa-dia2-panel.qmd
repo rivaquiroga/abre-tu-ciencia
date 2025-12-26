@@ -6,38 +6,91 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Panel de discusión: Experiencias en la implementación de flujos de trabajo reproducibles
 
-**Fecha:** 23 de Enero, 2026
+<br>
 
-**Horario:** 11:30 am - 12:50 am
+**Fecha:** Viernes 23 de Enero, 2026 - **Horario:** 11:30 am - 12:50 am
 
-Este panel reúne a investigadores con experiencia práctica en la implementación de flujos de trabajo reproducibles, compartiendo casos de estudio, desafíos encontrados y soluciones desarrolladas en diferentes contextos disciplinarios. Los panelistas discutirán sobre herramientas, estrategias organizacionales y cambios culturales necesarios para adoptar prácticas de investigación más transparentes y reproducibles.
+Este panel reúne a investigadoras con experiencia práctica en la implementación de flujos de trabajo reproducibles, compartiendo casos de estudio, desafíos encontrados y soluciones desarrolladas en diferentes contextos disciplinarios. Las panelistas discutirán sobre herramientas, estrategias organizacionales y cambios culturales necesarios para adoptar prácticas de investigación más transparentes y reproducibles.
 
-**Materiales**
+<br>
 
-**Expositora:** Estela Blanco
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+::: {.speaker-photo}
+![](images/invitados/eblanco.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Estela Blanco</div>
+<div class="speaker-role">Profesora Asociada en College UC y Escuela de Salud Pública</div>
+
+::: {.team-links}
+<a href="mailto:estela.blanco@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://estelablanco.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/estela-blanco" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-**Expositora:** Sandra Flores Alvarado
+<br>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+::: {.speaker-photo}
+![](images/invitados/rquiroga.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Riva Quiroga</div>
+<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+
+::: {.team-links}
+<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-**Expositora:** Riva Quiroga
+
+<br>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem;">
+::: {.speaker-photo}
+![](images/invitados/sflores.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Sandra Flores Alvarado</div>
+<div class="speaker-role">Profesora Asistente Escuela de Salud Pública. <br> Universidad de Chile.</div>
+
+::: {.team-links}
+<a href="mailto:sfloresa@uchile.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/sandra-andrea-flores-alvarado-64300536/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/sfloresalvarado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
 
-<br><br><br><br><br><br><br><br><br>

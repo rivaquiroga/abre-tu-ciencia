@@ -6,26 +6,41 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Laboratorio 3: Documentos dinámicos con Quarto
 
-**Fecha:** 22 de Enero, 2026
+<br>
 
-**Horario:** 04:40 pm - 05:30 pm
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/sorellana.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Stephanie Orellana</div>
+<div class="speaker-role">Senior Data Scientist / Research Software Engineer <br> Cienciambiental</div>
+
+::: {.team-links}
+<a href="mailto:sporella.dev@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://sporella.xyz/about/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/sporella/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
+
+**Fecha:** Jueves 22 de Enero, 2026 - **Horario:** 04:40 pm - 05:30 pm
 
 Este laboratorio práctico introduce a los participantes en la creación de documentos dinámicos usando Quarto, una herramienta moderna para la comunicación científica reproducible. Los asistentes aprenderán a integrar código, análisis y texto en un solo documento, generar múltiples formatos de salida (HTML, PDF, Word) y crear presentaciones y sitios web profesionales que facilitan la transparencia y reproducibilidad de la investigación.
-
-**Materiales**
-
-**Expositora:** Stephanie Orellana
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

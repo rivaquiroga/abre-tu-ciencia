@@ -3,22 +3,94 @@
 </div>
 
 <script>
-// Marcar el enlace activo basado en la URL actual
-document.addEventListener('DOMContentLoaded', function() {
-  const currentPath = window.location.pathname.split('/').pop() || 'preworkshop.html';
-  const links = document.querySelectorAll('.program-sidebar-menu a');
-  
-  links.forEach(link => {
-    const linkPath = link.getAttribute('href');
-    // Comparar nombres de archivo sin extensión para mayor flexibilidad
-    const currentFile = currentPath.replace('.html', '');
-    const linkFile = linkPath.replace('.html', '');
+// Marcar el enlace activo basado en la URL actual y hacer scroll automático
+(function() {
+  function markActiveLink() {
+    // Obtener el nombre del archivo actual de la URL
+    const currentPath = window.location.pathname;
+    const currentFile = currentPath.split('/').pop() || '';
     
-    if (linkPath === currentPath || currentFile === linkFile || currentPath.includes(linkFile)) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
+    // Si no hay archivo, usar index o la página por defecto
+    if (!currentFile || currentFile === '' || currentFile === '/') {
+      return;
     }
-  });
-});
+    
+    const sidebar = document.querySelector('.program-sidebar-menu');
+    const links = document.querySelectorAll('.program-sidebar-menu a');
+    
+    if (links.length === 0) {
+      // Si no hay links aún, intentar de nuevo
+      setTimeout(markActiveLink, 200);
+      return;
+    }
+    
+    let activeLink = null;
+    
+    links.forEach(link => {
+      // Remover clase active primero
+      link.classList.remove('active');
+      
+      const linkHref = link.getAttribute('href');
+      if (!linkHref) return;
+      
+      // Obtener solo el nombre del archivo del href
+      const linkFile = linkHref.split('/').pop() || linkHref;
+      
+      // Comparar nombres de archivo (con y sin .html)
+      const currentFileClean = currentFile.replace('.html', '').toLowerCase();
+      const linkFileClean = linkFile.replace('.html', '').toLowerCase();
+      
+      // Comparación exacta
+      const isExactMatch = currentFile === linkFile || 
+                          currentFile.replace('.html', '') === linkFile.replace('.html', '');
+      
+      // Comparación normalizada
+      const isNormalizedMatch = currentFileClean === linkFileClean && currentFileClean !== '';
+      
+      // Comparación por inclusión (para casos con rutas relativas)
+      const isPathMatch = currentPath.includes(linkFile) || 
+                        currentPath.endsWith(linkFile);
+      
+      if (isExactMatch || isNormalizedMatch || isPathMatch) {
+        link.classList.add('active');
+        activeLink = link;
+      }
+    });
+    
+    // Hacer scroll al enlace activo si existe
+    if (activeLink && sidebar) {
+      // Calcular la posición del elemento activo relativa al sidebar
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const linkRect = activeLink.getBoundingClientRect();
+      
+      // Calcular el scroll necesario para centrar el elemento activo
+      const scrollTop = sidebar.scrollTop;
+      const linkOffsetTop = activeLink.offsetTop;
+      const sidebarHeight = sidebar.clientHeight;
+      const linkHeight = activeLink.offsetHeight;
+      
+      // Scroll para centrar el elemento activo en el área visible
+      const targetScroll = linkOffsetTop - (sidebarHeight / 2) + (linkHeight / 2);
+      
+      // Hacer scroll suave al elemento activo
+      sidebar.scrollTo({
+        top: Math.max(0, targetScroll - 20), // -20 para un poco de padding superior
+        behavior: 'smooth'
+      });
+    }
+  }
+  
+  // Ejecutar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(markActiveLink, 50);
+    });
+  } else {
+    markActiveLink();
+  }
+  
+  // También ejecutar después de un delay para asegurar que todo esté cargado
+  setTimeout(markActiveLink, 200);
+  setTimeout(markActiveLink, 500);
+})();
 </script>

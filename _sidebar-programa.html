@@ -17,12 +17,12 @@ body.program-page .program-sidebar-menu {
   position: fixed;
   left: 0;
   top: var(--navbar-h);
-  width: 280px;
-  height: calc(100vh - var(--navbar-h) - var(--footer-h, 72px));
+  width: 320px;
+  height: calc(100vh - var(--navbar-h));
   background: #f8f9fa;
   border-right: 1px solid #e0e0e0;
   padding: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 1;
@@ -64,9 +64,14 @@ body.program-page .program-sidebar-menu a:hover {
 }
 
 body.program-page .program-sidebar-menu a.active {
-  background: var(--primary-color);
-  color: white;
-  font-weight: 600;
+  background: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+body.program-page .program-sidebar-menu a.active:hover {
+  background: var(--primary-color) !important;
+  color: white !important;
 }
 
 body.program-page .program-sidebar-menu .section-title {
@@ -84,10 +89,10 @@ body.program-page .program-sidebar-menu .section-title:first-child {
 }
 
 body.program-page .program-main-content {
-  margin-left: 280px;
+  margin-left: 320px;
   padding: 2rem var(--body-gutter);
   min-height: calc(100vh - var(--navbar-h));
-  max-width: calc(100% - 280px);
+  max-width: calc(100% - 320px);
   box-sizing: border-box;
   font-size: 1.05rem;
   line-height: 1.7;
@@ -156,7 +161,8 @@ body.program-page .page-footer {
     <li><a href="preworkshop.html">Pre-Workshop</a></li>
     
     <li class="section-title">Día 1: 22 de Enero</li>
-    <li><a href="programa-dia1-conferencia1.html">Conferencia: ¿Por qué importa la Ciencia Abierta?</a></li>
+    <li><a href="programa-dia1-bienvenida.html">Bienvenida: ¿Por qué importa la Ciencia Abierta?</a></li>
+    <li><a href="programa-dia1-conferencia1.html">Conferencia: Perspectivas globales en Ciencia Abierta</a></li>
     <li><a href="programa-dia1-conferencia2.html">Conferencia: Buenas prácticas de Ciencia Abierta</a></li>
     <li><a href="programa-dia1-panel.html">Panel: Dimensiones éticas e institucionales</a></li>
     <li><a href="programa-dia1-lab1.html">Laboratorio 1: Pre-registros</a></li>
@@ -169,7 +175,7 @@ body.program-page .page-footer {
     <li><a href="programa-dia2-panel.html">Panel: Flujos reproducibles</a></li>
     <li><a href="programa-dia2-lab4.html">Laboratorio 4: Git y GitHub</a></li>
     <li><a href="programa-dia2-lab5.html">Laboratorio 5: Cursor e IA para Ciencia Abierta</a></li>
-    <li><a href="programa-conferencia-internacional.html">Conferencia Internacional</a></li>
+    <li><a href="programa-conferencia-internacional.html"><b>Conferencia Internacional</b></a></li>
   </ul>
 </nav>
 

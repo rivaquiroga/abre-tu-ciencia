@@ -6,26 +6,41 @@ format:
     page-layout: custom
     main-container: default
     toc: false
+    theme:
+      - default
+      - custom.scss
+      - programa-dia.scss
     include-before-body: _sidebar-programa.html
     include-after-body: _sidebar-programa-close.html
 ---
 
-<br><br><br>
+<br>
 
 # Conferencia Magistral: El rol de la IA en la reproducibilidad y transparencia científica
 
-**Fecha:** 23 de Enero, 2026
+<br>
 
-**Horario:** 10:00 am - 11:00 am
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
+::: {.speaker-photo}
+![](images/invitados/Pchandia.jpeg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Patricia Chandía</div>
+<div class="speaker-role">Analista de Gobierno de Datos. <br> Caja Los Andes. </div>
+
+::: {.team-links}
+<a href="mailto:pchandia5954@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/pchandia5954/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/pchandia5954" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+</div>
+
+**Fecha:** Viernes 23 de Enero, 2026 - **Horario:** 10:00 am - 11:00 am
 
 Esta conferencia explora el papel emergente de la inteligencia artificial en la promoción de la reproducibilidad y transparencia científica, analizando cómo herramientas de IA pueden facilitar la documentación, automatización y verificación de procesos de investigación. Se discutirán oportunidades y desafíos éticos asociados al uso de IA en ciencia abierta, así como estrategias para integrar estas tecnologías de manera responsable y transparente.
-
-**Materiales**
-
-**Expositora:** Patricia Chandía
 
 <a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
 <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
 <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
