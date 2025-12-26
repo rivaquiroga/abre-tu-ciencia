@@ -18,7 +18,9 @@ format:
 
 **Horario:** 02:00 pm - 03:00 pm
 
-Este laboratorio práctico enseña los fundamentos de Git y GitHub para el control de versiones de código y datos, permitiendo a los participantes gestionar cambios, colaborar de manera efectiva y mantener un historial completo de sus proyectos de investigación. Se cubrirán comandos básicos, creación de repositorios, gestión de ramas y mejores prácticas para proyectos científicos reproducibles.
+
+Este laboratorio práctico ilustra el uso de Git y GitHub como herramientas clave para el desarrollo de proyectos abiertos y reproducibles. Sus participantes aprenderán a organizar repositorios para compartir código o datos y documentar adecuadamente su trabajo. Además, se revvisará cómo convertir estos repositorios en outputs de investigación citables mediante buenas prácticas de publicación, licenciamiento y vinculación con identificadores persistentes. 
+El laboratorio supone un conocimiento básico de Git y GitHub (por ejemplo, saber cómo hacer _push_ y _pull_ en un repositorio propio).
 
 **Materiales**
 
