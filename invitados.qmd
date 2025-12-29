@@ -53,7 +53,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 <div class="speaker-bio">Directora de Gestión Institucional y Vinculación en Data Observatory. Doctora en Bioquímica y Biología Molecular por la Universidad Estatal de Michigan (EE.UU.) y Máster en Políticas Públicas y Gestión por la Universidad Carnegie Mellon (EE.UU.), ha dedicado su trayectoria a fortalecer los vínculos entre ciencia, política y sociedad. Además, participa ad honorem como Vicepresidenta de Políticas en la International Network for Governmental Science Advice (INGSA) y ha formado parte de diversos comités internacionales orientados a promover el uso de evidencia científica en la toma de decisiones. Su trabajo se ha desarrollado principalmente en áreas de interfaz ciencia-sociedad, como la política científica, el asesoramiento científico y la diplomacia científica, con particular aplicación en datos abiertos y ciencia abierta. </div>
 
 ::: {.team-links}
-<a href="mailto:soledad.quiroz@dataobservatory.net" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="mailto:squirozv@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
 <a href="https://www.linkedin.com/in/squiroz/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
 <a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::

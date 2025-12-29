@@ -30,7 +30,7 @@ format:
 <div class="speaker-role">Directora de Gestión Institucional y Vinculación. <br> Data Observatory. </div>
 
 ::: {.team-links}
-<a href="mailto:soledad.quiroz@dataobservatory.net" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="mailto:squirozv@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
 <a href="https://www.linkedin.com/in/squiroz/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
 <a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
