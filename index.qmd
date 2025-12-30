@@ -33,7 +33,7 @@ Postula hasta el martes 30 de Diciembre del 2025
 :::
 
 ::: {.hero-cta}
-[Formulario de inscripción](https://forms.gle/6VJAzqBfWHyrYBpz5){.cta-inscripcion}
+[Formulario de inscripción <br> (HASTA HOY A LAS 23:59)](https://forms.gle/6VJAzqBfWHyrYBpz5){.cta-inscripcion}
 :::
 
 
