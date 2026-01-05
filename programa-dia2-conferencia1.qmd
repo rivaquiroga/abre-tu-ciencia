@@ -55,7 +55,7 @@ Esta conferencia aborda estrategias para el diseño de protocolos de investigaci
 :::
 
 ::: {.speaker-info-horizontal}
-<div class="speaker-name">Marcela Riversa</div>
+<div class="speaker-name">Marcela Rivera</div>
 <div class="speaker-role">Subdirectora de Recursos de Información y Archivos. <br> Bibliotecas UC.</div>
 
 ::: {.team-links}
