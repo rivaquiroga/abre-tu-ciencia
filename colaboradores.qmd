@@ -140,13 +140,14 @@ format:
 
 ::: {.team-links}
 <a href="mailto:mgonzr@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/martinagonzramos-371550212" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
 :::
 :::
 :::
 
 ::: {.speaker-card}
 ::: {.speaker-photo}
-![María Alejandra Rojas](images/equipo/student/mrojas.png){.img-circle}
+![María Alejandra Rojas](images/equipo/students/mrojas.png){.img-circle}
 :::
 
 ::: {.speaker-info}
