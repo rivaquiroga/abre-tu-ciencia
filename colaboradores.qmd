@@ -109,6 +109,60 @@ format:
 :::
 
 
+## Estudiantes
+
+
+::: {.team-grid-3}
+::: {.speaker-card}
+::: {.speaker-photo}
+![Florencia General](images/equipo/students/fgeneral.jpg){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">Florencia General</div>
+<div class="speaker-role">Estudiante de Administración Pública, PUC </div>
+
+::: {.team-links}
+<a href="mailto:florencia.general@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/florencia-general-araneda-4b180a334/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card}
+::: {.speaker-photo}
+![Martina González](images/equipo/students/mgonzalez.png){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">Martina González</div>
+<div class="speaker-role">Estudiante de College Ciencias Sociales, PUC  </div>
+
+::: {.team-links}
+<a href="mailto:mgonzr@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card}
+::: {.speaker-photo}
+![María Alejandra Rojas](images/equipo/student/mrojas.png){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">María Alejandra Rojas</div>
+<div class="speaker-role">Estudiante de Administración Pública, PUC </div>
+
+::: {.team-links}
+<a href="mailto:Maria.rojasd@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/alejandra-rojas-de-la-torre-/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+:::
+
+
+
 ## Instituciones Colaboradoras {#instituciones-colaboradoras}
 
 ::: {.content-section}
