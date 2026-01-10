@@ -29,7 +29,7 @@ Pontificia Universidad Católica de Chile
 :::
 
 ::: {.hero-cta}
-[Inscripciones Cerradas Resultados el viernes 09 de Enero](){.cta-inscripcion}
+[Accede a todo el material dando click aquí.](https://atc26.com/preworkshop.html){.cta-inscripcion}
 :::
 
 

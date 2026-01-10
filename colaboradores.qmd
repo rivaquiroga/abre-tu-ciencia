@@ -19,7 +19,7 @@ format:
 
 ::: {.speaker-info}
 <div class="speaker-name">Magdalena Gatsch</div>
-<div class="speaker-role">MSc en Evolución y conducta humana, UCL </div>
+<div class="speaker-role">MSc en Evolución y Conducta Humana, UCL </div>
 <div class="speaker-bio">Trabaja en temas de salud humana, cognición en primates no humanos y bioética.</div>
 
 ::: {.team-links}
@@ -115,7 +115,7 @@ format:
 ::: {.team-grid-3}
 ::: {.speaker-card}
 ::: {.speaker-photo}
-![Florencia General](images/equipo/students/fgeneral.jpg){.img-circle}
+![Florencia General](images/equipo/students/fgeneral.png){.img-circle}
 :::
 
 ::: {.speaker-info}
