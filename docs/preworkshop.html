@@ -379,7 +379,10 @@ body.program-page .page-footer {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#pre-workshop-introducción-a-positron" id="toc-pre-workshop-introducción-a-positron">Pre-Workshop: Introducción a Positron</a></li>
+  <li><a href="#pre-workshop-introducción-a-positron" id="toc-pre-workshop-introducción-a-positron">Pre-Workshop: Introducción a Positron</a>
+  <ul>
+  <li><a href="#qué-es-positron" id="toc-qué-es-positron">¿Qué es POSITRON?</a></li>
+  </ul></li>
   </ul>
 </nav>
 <p><br></p>
@@ -404,15 +407,123 @@ Investigador Joven. <br> Escuela de Gobierno &amp; College UC.
 </div>
 <p><strong>Fecha:</strong> Miércoles 21 de Enero, 2026 - <strong>Horario:</strong> 06:30 pm - 09:00 pm</p>
 <p>Este taller introductorio busca que las y los participantes puedan configurar correctamente su entorno de trabajo en R y familiarizarse con las interfaces de RStudio y Positron IDE. Revisaremos las funciones básicas de cada plataforma y ejecutaremos scripts simples para garantizar que todos cuenten con las herramientas necesarias antes de avanzar. Al finalizar, quienes asistan estarán preparados para aprovechar plenamente los laboratorios posteriores.</p>
-<p><a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a> <a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a> <a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a></p>
+<p><a href="https://github.com/JDConejeros/intro_positron_atc26/raw/main/PresRep/intro_positron.pdf" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a> <a href="https://github.com/JDConejeros/intro_positron_atc26" class="material-link" target="_blank"><i class="fab fa-github"></i> Repositorio</a></p>
+<section id="qué-es-positron" class="level3">
+<h3 data-anchor-id="qué-es-positron">¿Qué es POSITRON?</h3>
+<p>Positron es una entorno de desarrollo integrado (IDE) moderno para programar, creado por Posit (antes RStudio), pensado especialmente para ciencia de datos con R y Python. Positron unifica el trabajo de exploración y producción en un entorno gratuito asistido por IA, potenciando todo el espectro de la ciencia de datos. Esta herramienta será clave durante nuestras sesiones del workshop.</p>
+<div style="display: grid; grid-template-columns: 3fr 1fr; gap: 2rem; margin: 2rem 0; align-items: start;">
+<div>
+<video controls="" width="100%" style="max-width: 100%; height: auto; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<source src="https://positron.posit.co/videos/positron-hero-fast-tour.mp4" type="video/mp4">
+<p>Tu navegador no soporta la reproducción de videos. Puedes verlo <a href="https://positron.posit.co/videos/positron-hero-fast-tour.mp4" target="_blank">aquí</a>. </p>
+</video></div>
+<div>
+<p><strong>Algunas características:</strong></p>
+<ul>
+<li>Consola interactiva (como RStudio)</li>
+<li>Viewer de gráficos y data frames</li>
+<li>Soporte nativo para notebooks</li>
+<li>Autocompletado inteligente</li>
+<li>Gestión de entornos de trabajo (<code>renv</code>, <code>virtualenv</code>, <code>conda</code>)</li>
+<li>Integración con Git para control de versiones</li>
+<li>Fácil trabajo con Github para trabajo colaborativo</li>
+<li>Diseñado para flujos reproducibles (Quarto, scripts, notebooks)</li>
+</ul>
+</div>
+</div>
+<section id="es-mejor-que-visual-studio-o-rstudio" class="level3">
+<h3 data-anchor-id="es-mejor-que-visual-studio-o-rstudio">¿Es mejor que Visual Studio o RStudio?</h3>
+<p>Puede ser mejor que RStudio y más cómodo que VS Code cuando el trabajo se centra en ciencia de datos con R y Python, ya que integra de forma nativa consola, explorador de datos, gráficos y notebooks en un solo entorno. RStudio sigue siendo la opción más estable y madura si trabajas casi exclusivamente en R, especialmente para análisis tradicionales y desarrollo de paquetes. Visual Studio Code es más potente y flexible para programación general y múltiples lenguajes, aunque exige más configuración para flujos de ciencia de datos.</p>
+<p>Sin embargo, Positron facilita la adopción de agentes de IA (como Positron Assistant y Databot) que pueden configurarse con APIs externas para apoyar escritura y documentación de código, exploración de datos y análisis; ofrece integración directa con Git/GitHub para versionado; y soporta notebooks y Quarto para generar resultados reproducibles (PDF/HTML/slides).</p>
+</section>
+<section id="cómo-se-instala-y-se-trabaja-en-positron" class="level3">
+<h3 data-anchor-id="cómo-se-instala-y-se-trabaja-en-positron">¿Cómo se instala y se trabaja en POSITRON?</h3>
+<p>Te recomendamos mirar este video introductorio con el paso a paso. <strong>¿Debo tener instalado R y Python para trabajar con Positron?</strong> Sí, Positron no incluye R ni Python: es el IDE, no el lenguaje. Al iniciar, Positron detecta las instalaciones existentes de R y Python y las usa como kernels para ejecutar código. Si no los tienes, Positron se abre, pero no podrás correr análisis hasta instalar al menos uno.</p>
+<p><strong>Sigue el video para tener todo listo para el workshop.</strong></p>
+<div style="margin: 2rem 0; text-align: center;">
+<div style="max-width: 1200px; width: 100%; margin: 0 auto; position: relative; padding-bottom: 35%; height: 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/mru9z50IOhI?si=xQTldthNCtEe-_9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+<style>
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.75rem;
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(32, 110, 232, 0.3);
+}
+.download-button:hover {
+  background: #1a5fc7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(32, 110, 232, 0.4);
+  color: #fff;
+}
+.download-button i {
+  font-size: 1.1rem;
+}
+</style>
+<p><a href="https://positron.posit.co/download.html" target="_blank" class="download-button"> <i class="fas fa-download"></i> Descarga POSITRON gratis aquí </a> <a href="https://positron.posit.co/install.html" target="_blank" class="download-button"> <i class="fas fa-cog"></i> Descarga e Instala R y Python aquí </a></p>
+</div>
+</div>
+</section>
+<section id="cómo-se-trabaja-en-positron" class="level3">
+<h3 data-anchor-id="cómo-se-trabaja-en-positron">¿Cómo se trabaja en POSITRON?</h3>
+<p><em>En versión de trabajo. Pronto estará disponible.</em></p>
+<div style="margin: 2rem 0;">
+<div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 42%; height: 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; background: #f5f5f5;">
+<iframe src="https://docs.google.com/viewer?url=https://github.com/JDConejeros/intro_positron_atc26/raw/main/PresRep/intro_positron.pdf&amp;embedded=true&amp;rm=minimal&amp;toolbar=1&amp;navpanes=0&amp;scrollbar=0&amp;page=none&amp;zoom=page-fit" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen="">
+<p>
+Tu navegador no soporta la visualización de PDFs embebidos. Puedes <a href="https://github.com/JDConejeros/intro_positron_atc26/raw/main/PresRep/intro_positron.pdf" target="_blank">descargar el PDF aquí</a>.
+</p>
+</iframe>
+</div>
+<p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light); text-align: center;">
+<i class="fas fa-info-circle"></i> Usa las flechas del visor para navegar entre slides. Cada slide se muestra completa sin scroll vertical.
+</p>
+<p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light); font-style: italic;">
+<strong>Nota:</strong> Si el PDF no se muestra correctamente, haz clic en “Ver presentación en nueva ventana” para abrirlo en tu navegador o descárgalo usando el botón de descarga.
+</p>
+</div>
+</section>
+<section id="más-para-seguir-aprendiendo" class="level3">
+<h3 data-anchor-id="más-para-seguir-aprendiendo">Más para seguir aprendiendo…</h3>
+<p>Les recomiendo estos dos videos que les pueden servir para profundizar algunas cuestiones adicionales.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ndq2Mm3Dju8?si=W8joEMmF69-NhqDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/TrN-FMcOsOA?si=ccjmSUmY-gx156td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<p style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--text-light); text-align: center;">
+<i class="fas fa-info-circle"></i> Este video tiene pista de audio en español. Haz clic en el icono de configuración (⚙️) del reproductor y selecciona “Audio” para cambiarlo.
+</p>
+</div>
+</div>
 
 
 </section>
+</section></section></div>
+</div>
+
+
 
 
 </div>
 
-</div>
+
 
 <script>
 // Marcar el enlace activo basado en la URL actual y hacer scroll automático
@@ -923,7 +1034,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
