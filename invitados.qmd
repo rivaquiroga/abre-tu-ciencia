@@ -13,7 +13,7 @@ format:
 
 ::: {.panel-tabset}
 
-<!---
+
 
 ## Conferencia Internacional
 
@@ -21,26 +21,29 @@ format:
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![](images/invitados/ted.png){.img-circle}
+![](images/invitados/lars.jpg){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
-<div class="speaker-name">Edward Miguel</div>
-<div class="speaker-role">Profesor Distinguido de Economía y Oxfam Professor de Economía Ambiental y de Recursos. Co-director académico del Center for Effective Global Action (CEGA). Departamento de Economía. University of California, Berkeley. </div>
-<div class="speaker-bio">Edward Miguel es Profesor Distinguido de Economía y Oxfam Professor de Economía Ambiental y de Recursos en la *University of California, Berkeley* (desde 2000), además de co-director académico del *Center for Effective Global Action* (CEGA). Obtuvo sus títulos en Economía y Matemáticas en el *Massachusetts Institute of Technology* (MIT) y su doctorado en Economía en la Harvard University, donde fue becario de la National Science Foundation. Su investigación se ha enfocado en el desarrollo económico en África, abordando causas y consecuencias económicas de la violencia, efectos de divisiones étnicas sobre la acción colectiva local, y las interacciones entre salud, educación, ambiente y productividad en contextos de pobreza. Ha realizado trabajo de campo en países como Kenia, Sierra Leona, Tanzania e India, y cuenta con más de 130 artículos y capítulos en revistas académicas de primer nivel.  ￼
+<div class="speaker-name">Lars Vilhuber</div>
+<div class="speaker-role"> Profesor de Economía y Data Editor de la American Economic Association. <br> Departamento de Economía. Cornell University.</div>
 
-Además de su aporte académico, Edward Miguel ha sido un impulsor central del movimiento de ciencia abierta en ciencias sociales. Es co-fundador y director académico de la *Berkeley Initiative for Transparency in the Social Sciences* (BITSS), institución que promueve prácticas de transparencia, reproducibilidad y rigor metodológico en investigación social, y cuyo trabajo fue reconocido con el *Einstein Foundation Institutional Award 2023* por promover calidad en la investigación. También es autor, junto a colegas, del libro *Transparent and Reproducible Social Science Research: How to Do Open Science*, que sistematiza herramientas para mejorar la credibilidad de la investigación social — como planes de análisis previos, código reproducible y estándares de transparencia — y busca cambiar la cultura investigadora hacia una mayor apertura. Su labor ha sido clave para impulsar la adopción de valores de reproducibilidad, apertura de datos y responsabilidad metodológica en economistas y científicos sociales de todo el mundo. </div>
+<div class="speaker-bio">
+Lars Vilhuber es Profesor de Economía en la <em>Cornell University</em> y se desempeña como <em>Data Editor</em> de la <em>American Economic Association</em> (AEA), donde lidera iniciativas clave para fortalecer los estándares de replicabilidad, acceso a datos y transparencia en la investigación económica. Obtuvo su doctorado en Economía y ha desarrollado una destacada trayectoria académica en el ámbito de la economía aplicada, la economía laboral y la economía computacional, con un fuerte énfasis en el uso responsable y reproducible de datos confidenciales y administrativos.
 
+Su investigación se centra en metodologías para el acceso seguro a microdatos, la documentación y curaduría de datos, y el diseño de infraestructuras que permitan la replicación de resultados científicos sin comprometer la confidencialidad. Ha trabajado extensamente en el desarrollo de estándares para archivos de replicación, metadatos y flujos de trabajo reproducibles, colaborando con agencias estadísticas, journals académicos y repositorios de datos a nivel internacional.
+
+Además de su contribución académica, Lars Vilhuber es una figura central del movimiento de ciencia abierta y reproducible en economía y ciencias sociales. Ha sido un impulsor clave de buenas prácticas en políticas editoriales de datos, promoviendo el uso de repositorios certificados, documentación exhaustiva y principios FAIR aplicados a la investigación social. Su trabajo ha tenido un impacto directo en la forma en que las principales revistas académicas evalúan, publican y preservan datos y código, contribuyendo de manera decisiva a fortalecer la credibilidad, transparencia y sostenibilidad de la investigación empírica a nivel global.
+</div>
 ::: {.team-links}
-<a href="mailto:emiguel@berkeley.edu" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://emiguel.econ.berkeley.edu/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
-<a href="https://github.com/tedmiguel" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="mailto:lars.vilhuber@cornell.edu" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://economics.cornell.edu/lars-vilhuber" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
 
 :::
 :::
 :::
 
---->
+
 
 ## Día 1: Jueves 22 de Enero (Gobierno)
 
