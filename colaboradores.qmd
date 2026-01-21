@@ -197,6 +197,8 @@ format:
 
 :::
 
+**SENTINET**: Surveillance, Epidemiology, and New Technologies for Infectious Emerging Threats. Agencia Nacional de Investigación y Desarrollo ANID, Centros de Investigación y Desarrollo de Excelencia de Interés Nacional [Grant CIN250062 SENTINET].
+
 
 ## Financiamiento {#financiamiento}
 

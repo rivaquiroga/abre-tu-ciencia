@@ -35,6 +35,8 @@ website:
         text: Lugar
       - href: preworkshop.qmd
         text: Contenido
+      - href: codigo-conducta.qmd
+        text: Código de Conducta
     right:
       - icon: github
         href: https://github.com/JDConejeros/abre-tu-ciencia

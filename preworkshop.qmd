@@ -41,7 +41,7 @@ format:
 
 Este taller introductorio busca que las y los participantes puedan configurar correctamente su entorno de trabajo en R y familiarizarse con las interfaces de RStudio y Positron IDE. Revisaremos las funciones básicas de cada plataforma y ejecutaremos scripts simples para garantizar que todos cuenten con las herramientas necesarias antes de avanzar. Al finalizar, quienes asistan estarán preparados para aprovechar plenamente los laboratorios posteriores.
 
-<a href="https://github.com/JDConejeros/intro_positron_atc26/raw/main/PresRep/intro_positron.pdf" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="https://github.com/JDConejeros/intro_positron_atc26/raw/main/PresRep/intro_positron.pdf" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
 <a href="https://github.com/JDConejeros/intro_positron_atc26" class="material-link" target="_blank"><i class="fab fa-github"></i> Repositorio</a>
 
 ### ¿Qué es POSITRON? 

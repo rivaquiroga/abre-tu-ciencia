@@ -1,0 +1,63 @@
+---
+title: "Código de Conducta"
+format:
+  html:
+    page-layout: full
+    toc: false
+    theme:
+      - default
+      - custom.scss
+---
+
+<br><br>
+
+# Código de Conducta
+
+*Este código de conducta está adaptado del [Código de Conducta de LatinR](https://latinr.org/sobre/coc/) y del [Código de Conducta para Conferencias](https://confcodeofconduct.com/).*
+
+Todas las personas que participan en el Workshop "Abre tu Ciencia" deben estar de acuerdo con el siguiente código de conducta. Como equipo de organización haremos cumplir este código durante todo el evento. Esperamos la cooperación de quienes participan para ayudar a garantizar un entorno seguro, respetuoso y colaborativo para todas y todos.
+
+## Nuestros Valores
+
+Este evento busca construir una comunidad comprometida con una ciencia:
+
+- **ABIERTA**: Promovemos la transparencia, el intercambio de conocimiento y la accesibilidad del conocimiento científico.
+- **CERCANA**: Fomentamos un ambiente acogedor donde todas las personas se sientan bienvenidas y valoradas.
+- **CONFIABLE**: Construimos relaciones basadas en la honestidad, la integridad y el respeto mutuo.
+- **COLABORATIVA**: Valoramos el trabajo en equipo, el apoyo mutuo y el aprendizaje colectivo.
+- **SOCIALMENTE RELEVANTE**: Reconocemos el impacto social de la ciencia y trabajamos por el bien común.
+
+### Comportamientos Esperados
+
+- **Respeto mutuo**: Trata a todas las personas con dignidad y consideración, independientemente de su nivel de experiencia, formación o perspectiva.
+- **Comunicación inclusiva**: Usa un lenguaje respetuoso y evita comentarios que puedan ser ofensivos o discriminatorios.
+- **Colaboración constructiva**: Comparte conocimiento, ofrece ayuda cuando sea posible y acepta feedback de manera positiva.
+- **Transparencia**: Sé honesto sobre tus limitaciones, errores y áreas de mejora. La ciencia abierta se construye sobre la honestidad.
+- **Espacios seguros**: Respeta los límites personales y profesionales de otras personas.
+
+### Comportamientos No Aceptables
+
+El acoso incluye, pero no se limita a:
+
+- Comentarios verbales ofensivos relacionados con el género, identidad y expresión de género, edad, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, origen étnico, religión, ideología, elección de tecnología o nivel de experiencia.
+- Imágenes sexuales en espacios públicos.
+- Intimidación deliberada, acoso, seguimiento, acoso fotográfico o grabación sin consentimiento.
+- Interrupción sostenida de las conversaciones u eventos.
+- Contacto físico inapropiado y atención sexual no deseada.
+- Comportamiento discriminatorio o excluyente de cualquier tipo.
+
+### Cumplimiento
+
+Esperamos que aquellos participantes a quienes se les solicite detener cualquier comportamiento inapropiado cumplan inmediatamente. Si un participante se involucra en un comportamiento de acoso o viola este código de conducta, los organizadores del workshop pueden tomar las medidas que consideren apropiadas, tales como una advertencia o la expulsión del evento sin reembolso.
+
+### Reportar Incidentes
+
+Si eres víctima de acoso, observas que alguien más está siendo acosado o tienes comentarios al respecto, comunícate de inmediato con el personal del evento. Puedes identificarnos por nuestras credenciales o contactarnos directamente.
+
+El personal del evento ayudará a los participantes a ponerse en contacto con la seguridad del lugar si es necesario, proporcionar apoyo o ayudar a quienes sufren acoso a sentirse seguros durante el workshop. Valoramos tu asistencia y tu bienestar.
+
+Esperamos que los participantes sigan estas reglas tanto durante el workshop como en eventos sociales relacionados con el mismo.
+
+## ¿Necesitas Ayuda?
+
+Contacta a alguna de las personas del comité organizador. Durante el evento podrás identificarnos por nuestras credenciales. También puedes escribirnos a través de los canales oficiales del evento.
