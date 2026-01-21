@@ -70,7 +70,7 @@ Este panel reúne a investigadoras con experiencia práctica en la implementaci�
 
 ::: {.speaker-info-horizontal}
 <div class="speaker-name">Riva Quiroga</div>
-<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+<div class="speaker-role"> Research Fellow en OLS</div>
 
 ::: {.team-links}
 <a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
@@ -80,7 +80,7 @@ Este panel reúne a investigadoras con experiencia práctica en la implementaci�
 :::
 </div>
 
-<a href="" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
+<a href="" class="material-link" target="https://tinyurl.com/atc26-riva-quiroga"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
 
 <!---
 
