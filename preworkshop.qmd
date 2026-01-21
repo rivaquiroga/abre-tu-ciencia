@@ -126,6 +126,8 @@ Te recomendamos mirar este video introductorio con el paso a paso. **¿Debo tene
 </div>
 
 
+<!------
+
 ### ¿Cómo se trabaja en POSITRON? 
 
 *En versión de trabajo. Pronto estará disponible.*
@@ -147,6 +149,8 @@ Te recomendamos mirar este video introductorio con el paso a paso. **¿Debo tene
   <strong>Nota:</strong> Si el PDF no se muestra correctamente, haz clic en "Ver presentación en nueva ventana" para abrirlo en tu navegador o descárgalo usando el botón de descarga.
 </p>
 </div>
+
+---->
 
 ### Más para seguir aprendiendo...
 
