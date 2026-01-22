@@ -46,9 +46,6 @@ format:
 
 ## Programación
 
-Pronto se agregarán los materiales de cada sesión.
-
-
 ::: {.program-note}
 ::: {.fa .fa-info-circle}
 :::

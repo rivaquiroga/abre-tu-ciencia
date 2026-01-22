@@ -9,9 +9,11 @@ format:
       - custom.scss
 ---
 
-<br><br>
+<br><br><br>
 
 # Código de Conducta
+
+<br>
 
 *Este código de conducta está adaptado del [Código de Conducta de LatinR](https://latinr.org/sobre/coc/) y del [Código de Conducta para Conferencias](https://confcodeofconduct.com/).*
 
