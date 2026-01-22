@@ -28,7 +28,7 @@ format:
 
 ::: {.speaker-info-horizontal}
 <div class="speaker-name">Riva Quiroga</div>
-<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+<div class="speaker-role"> Research Fellow en OLS</div>
 
 ::: {.team-links}
 <a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
